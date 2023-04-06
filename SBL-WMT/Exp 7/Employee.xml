@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="Employee.xsl" type="text/xsl"?>
+<!DOCTYPE Employee [
+    <!ELEMENT Details (E_Name,ID,Email)>
+    <!ELEMENT E_Name (#PCDATA)>
+    <!ELEMENT ID (#PCDATA)>
+    <!ELEMENT Email (#PCDATA)>
+]>
+<Employee>
+    <Details>
+        <E_Name>Ayush</E_Name>
+        <ID>101</ID>
+        <Email>random777@gmail.com</Email>
+    </Details>
+    <Details>
+        <E_Name>Vivek</E_Name>
+        <ID>102</ID>
+        <Email>random123@gmail.com</Email>
+    </Details>
+    <Details>
+        <E_Name>Shakunt</E_Name>
+        <ID>103</ID>
+        <Email>random456@gmail.com</Email>
+    </Details>
+    <Details>
+        <E_Name>Gaurav</E_Name>
+        <ID>104</ID>
+        <Email>random789@gmail.com</Email>
+    </Details>
+</Employee>
